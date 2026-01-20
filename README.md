@@ -17,6 +17,7 @@
 ## Vista previa
 
 Puedes ver el proyecto en funcionamiento aquí:  
+https://jgkatterin.github.io/Calculadora-web-js/
 
 ##  Autora
 

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button class="menu-btn" onclick="toggleMenu()">☰</button>
+<button class="tema-btn" onclick="cambiarTema()">🌙</button>
+
+<div class="contenedor">
+
+  <div class="calculadora">
+    <h1>Calculadora</h1>
+
+    <input type="number" id="num1" placeholder="Número 1">
+    <input type="number" id="num2" placeholder="Número 2">
+
+    <div class="botones">
+      <button onclick="calcular('suma')">+</button>
+      <button onclick="calcular('resta')">−</button>
+      <button onclick="calcular('multiplica')">×</button>
+      <button onclick="calcular('divide')">÷</button>
+      <button onclick="limpiar()">C</button>
+    </div>
+
+    <p id="resultado">Resultado:</p>
+  </div>
+
+  <div class="historial" id="panelHistorial">
+    <h3>Historial</h3>
+    <ul id="historial"></ul>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+
+<footer class="firma">
+  © 2026 — Hecho por ✨🎃🦝Kami-Mika🦝🎃✨
+</footer>
+
+</html>
